@@ -1,0 +1,80 @@
+html,body,.container-fluid
+{
+  height:100%;
+  font-family: 'Hind';
+}
+
+.container-fluid
+{
+  width: 100%;
+}
+
+.main
+{
+  height: 100%;
+}
+
+#left-section, #right-section{
+  height: 100%;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+.section .section-heading {
+  font-weight: bold;
+
+}
+
+#left-section {
+  position: relative;
+  overflow: hidden;
+}
+
+/*#left-section .background {
+  background: url(../img/left-section-img.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}*/
+
+#left-section {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c539e+0,2c539e+100;Blue+3D+%232 */
+  background: #2c539e; /* Old browsers */
+  background: -moz-linear-gradient(top,  #2c539e 0%, #2c539e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #2c539e 0%,#2c539e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #2c539e 0%,#2c539e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c539e', endColorstr='#2c539e',GradientType=0 ); /* IE6-9 */
+  text-align: center;
+  position: relative;
+}
+
+#left-section .content {
+  color: white;
+  margin-top: 100px;
+}
+
+#right-section {
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+ul {
+  padding: inherit;
+}
+
+.contact-info {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 100%;
+}
+
+.fa {
+  color: white;
+  margin-left: 20px;
+}
